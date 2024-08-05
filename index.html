@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mosquée Koubaa</title>
+    <link rel="stylesheet" href="stylesMK.css">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop id="background-video">
+            <source src="./ABU DHABI ● Sheikh Zayed Grand Mosque [2020] Cinematic _ 4K.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+    </div>
+    <header>
+        <div class="header-left" id="logo">Mosquée Koubaa</div>
+            <button id="donation-form" type="submit">Faire un don</button>
+        <nav>
+            <ul>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#arabic-classes">Cours d'Arabe</a></li>
+                <li><a href="#gallery">Galerie</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="register-btn">S'inscrire aux cours d'Arabe</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="textAboutWrap">
+            <h2>À Propos</h2>
+            <p>Bienvenue à la Mosquée Koubaa à Bruxelles. Notre communauté se consacre à l'enseignement et à la pratique de l'Islam, en offrant un espace spirituel et éducatif pour tous.</p>
+        </div>
+            
+    </section>
+
+    
+
+    <section id="arabic-classes">
+        <h2>Cours d'Arabe</h2>
+        <p>Nous proposons des cours d'arabe pour tous les âges. Inscrivez-vous ci-dessous.</p>
+        <div id="class-registration-container"></div>
+    </section>
+
+    <section id="gallery">
+        <h2>Galerie</h2>
+        <div class="album">
+            <div class="photo"><img src="./exterior.png" alt=""></div>
+            <div class="photo"><img src="./interior.png" alt=""></div>
+            <div class="photo"><img src="./exterior.png" alt=""></div>
+            <div class="photo"><img src="./interior.png" alt=""></div>
+            <div class="photo"><img src="./exterior.png" alt=""></div>
+            <div class="photo"><img src="./interior.png" alt=""></div>
+            <div class="photo"><img src="./exterior.png" alt=""></div>
+            <div class="photo"><img src="./interior.png" alt=""></div>
+            <div class="photo"><img src="./exterior.png" alt=""></div>
+            <div class="photo"><img src="./interior.png" alt=""></div>
+            <div class="photo"><img src="./exterior.png" alt=""></div>
+            <div class="photo"><img src="./interior.png" alt=""></div>
+            <div class="photo"><img src="./exterior.png" alt=""></div>
+            <div class="photo"><img src="./interior.png" alt=""></div>
+            <div class="photo"><img src="./exterior.png" alt=""></div>
+            <div class="photo"><img src="./interior.png" alt=""></div>
+            <div class="photo"><img src="./exterior.png" alt=""></div>
+            <div class="photo"><img src="./interior.png" alt=""></div>
+            <div class="photo"><img src="./exterior.png" alt=""></div>
+            <div class="photo"><img src="./interior.png" alt=""></div>
+            <div class="photo"><img src="./exterior.png" alt=""></div>
+            <div class="photo"><img src="./interior.png" alt=""></div>
+            <div class="photo"><img src="./exterior.png" alt=""></div>
+            <div class="photo"><img src="./interior.png" alt=""></div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="user-name">Nom:</label>
+            <input type="text" id="user-name" name="user-name" required>
+            <label for="user-email">Email:</label>
+            <input type="email" id="user-email" name="user-email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mosquée Koubaa. Tous droits réservés.</p>
+    </footer>
+
+    <script src="MKoubaa.js"></script>
+</body>
+</html>
