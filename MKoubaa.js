@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const aboutSection = document.getElementById('about');
             aboutSection.insertAdjacentHTML('beforeend', `
                 <div id="donation-info">
-                    <p>Veuillez faire un don à ce numéro de compte: BE99 8633 2566 6988</p>
+                    <p>Compte: BE99 8633 2566 6988</p>
                     <button id="close-donation">Fermer</button>
                 </div>
             `);
@@ -77,6 +77,8 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
             donationVisible = true;
+
+            
         }
     });
 
@@ -100,3 +102,31 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+//Scroll button image
+
+window.onload = function() {
+    document.querySelector('.scroll-button.left').addEventListener('click', scrollLeft);
+    document.querySelector('.scroll-button.right').addEventListener('click', scrollRight);
+};
+
+function scrollLeft() {
+    const container = document.querySelector('.album');
+    if (container) {
+        container.scrollBy({
+            left: -container.clientWidth / 2,
+            behavior: 'smooth'
+        });
+    }
+}
+
+function scrollRight() {
+    const container = document.querySelector('.album');
+    if (container) {
+        container.scrollBy({
+            left: container.clientWidth / 2,
+            behavior: 'smooth'
+        });
+    }
+}
+

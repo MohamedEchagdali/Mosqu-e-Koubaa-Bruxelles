@@ -8,6 +8,11 @@ body {
     width: 100%;
 }
 
+html{
+    scrollbar-color: green rgb(144, 192, 144);
+    
+}
+
 .video-background {
     position: absolute;
     top: 0;
@@ -51,12 +56,14 @@ header {
     cursor: pointer;
 }
 
+
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
     align-items: center;
+    gap: 1%;
 }
 
 nav ul li {
@@ -158,10 +165,42 @@ form input:focus, form textarea:focus, form button:focus {
 
 #gallery{
     background-color: #3333334f;
+    padding: 0;
+    height: 50vh;
+    padding-top: 5%;
+}
+
+.scroll-button {
+    background-color: rgba(0, 0, 0, 0.458);
+    border: none;
+    border-radius: 10%;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    height: 30%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.scroll-button.left {
+    left: 0;
+    top: 215%;
+}
+
+.scroll-button.right {
+    right: 0;
+    top: 200.3%;
+    transform:rotate(180deg);
+}
+
+.scroll-button:hover {
+    
+    background-color: rgba(0, 0, 0, 0.807);
 }
 
 .album {
-    background-color: red;
     width: 100%;
     height: 80%;
     display: flex;
@@ -170,6 +209,7 @@ form input:focus, form textarea:focus, form button:focus {
     flex-wrap: nowrap;
     justify-content: flex-start;
     overflow-x: auto;
+    scrollbar-width:none;
 }
 
 .photo img{

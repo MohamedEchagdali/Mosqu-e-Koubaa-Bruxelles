@@ -1,0 +1,11 @@
+Notas 
+
+1 - Mover el boton de inscripcion a clases, a la seccion de clases de arabe 
+1.1 - cambiar el formulario de inscripcion
+2 - No dejas que ambos innerHtml esten desplegados al mismo tiempo
+3 - Manejar las injecciones html malignas de los inner text 
+4 - Estilar mas el scrollbarre
+5 - Ver mas oppciones de donacion instantanea 
+6 - mejorar el formulario de contacto 
+7 - manejar el backend simple para enviar formularios y neuwletter al correo pertinente 
+8 - trabajar el footer, anadir un newsletter , preguntar si se revisa regularmente el email de la mezquita 
