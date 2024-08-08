@@ -84,16 +84,7 @@ nav ul li a:hover, nav ul li a:focus {
     border-radius: 5px;
 }
 
-nav ul li button {
-    background-color: #f8cdda;
-    color: #1d2b64;
-    font-weight: bold;
-    border: none;
-    padding: 0.5rem;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-}
+
 
 nav ul li button:hover, nav ul li button:focus {
     background-color: white;
@@ -102,8 +93,7 @@ nav ul li button:hover, nav ul li button:focus {
 
 section {
     padding: 6rem 2rem 2rem;
-    text-align: center;
-    height: 70vh;
+    height: 80vh;
 }
 
 .textAboutWrap{
@@ -162,12 +152,50 @@ form input:focus, form textarea:focus, form button:focus {
     background: #1d2b64;
     color: #f8cdda;
 }
+#arabic{
+    padding-top: 5%;
+}
+
+#arabicWrap{
+    display: flex;
+    gap: 15%;
+}
+
+#arabicWrap > img{
+    border-radius: 5%;
+    margin-top: 5%;
+}
+
+#arabic > h2{
+    text-align: center;
+}
+
+#arabic-text {
+        width: 60%;
+        text-align: center;
+        padding-top: 1%;
+    }
+
+
+
+#register-btn{
+    background-color: #f8cdda;
+    height: 15%;
+    color: #1d2b64;
+    font-weight: bold;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5%;
+}
 
 #gallery{
-    background-color: #3333334f;
+    background-color: #3333331b;
     padding: 0;
-    height: 50vh;
+    height: 90vh;
     padding-top: 5%;
+    text-align: center;
 }
 
 .scroll-button {
@@ -261,6 +289,113 @@ form input:focus, form textarea:focus, form button:focus {
 }
 
 
+/*-----------------------------------------------------*/
+
+.footer {
+    background: -webkit-linear-gradient(left, #0d4100d1, #08c501d1);
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.subscribe,
+.contact,
+.social {
+    flex: 1;
+    margin-right: 20px;
+    color: white;
+   
+}
+
+.social a{
+    color: #98e1ed;
+    text-decoration: none;
+}
+
+.contact a{
+    text-decoration: none;
+    color:#98e1ed;
+}
+
+.social a:hover{
+    text-decoration:underline;
+    color: #eff5f6;
+   
+}
+
+.contact a:hover{
+     color:#eff5f6;
+     text-decoration:underline;
+}
+.subscribe h3,
+.contact h3,
+.social h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.subscribe input[type="email"],
+.subscribe button {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+.subscribe input:focus{
+     border: 4px solid rgb(39, 141, 243);
+     transition: all 0.6 ease;
+   
+}
+
+.subscribe button {
+    background: -webkit-linear-gradient(left, #2b2c6d, #1e7b90 );
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.subscribe button:hover{
+    background: -webkit-linear-gradient(left, #095060,#121347 );
+}
+
+.subscribe button:focus{
+    background: -webkit-linear-gradient(left,#121347, #095060 );
+}
+
+
+.contact p {
+    margin-bottom: 10px;
+}
+
+.social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social ul li:last-child {
+    margin-right: 0;
+}
+
+.social ul li img {
+    width: 40px;
+    height: 40px;
+}
+/*
+
 footer {
     background: linear-gradient(to right, #0d4100, #08c501);
     color: white;
@@ -274,3 +409,4 @@ footer {
     margin-left: 5%;
     border-radius: 10% 10% 0 0 ;
 }
+*/

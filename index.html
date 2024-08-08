@@ -15,13 +15,12 @@
     </div>
     <header>
         <div class="header-left" id="logo">Mosquée Koubaa</div>
-            <button id="donation-form" type="submit">Faire un don</button>
         <nav>
             <ul>
-                <li><a href="#arabic-classes">Cours d'Arabe</a></li>
+                <li><a href="#arabic">Cours d'Arabe</a></li>
                 <li><a href="#gallery">Galerie</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><button id="register-btn">S'inscrire aux cours d'Arabe</button></li>
+                <button id="donation-form" type="submit">Faire un don</button>
             </ul>
         </nav>
     </header>
@@ -36,10 +35,28 @@
 
     
 
-    <section id="arabic-classes">
-        <h2>Cours d'Arabe</h2>
-        <p>Nous proposons des cours d'arabe pour tous les âges. Inscrivez-vous ci-dessous.</p>
-        <div id="class-registration-container"></div>
+    <section id="arabic">
+        
+        <div id="arabicWrap">
+            <div id="arabic-text">
+                <h2>Cours d'Arabe</h2><br><br>
+        <p><h3></h3>La mosquée propose des cours d'arabe destinés à tous les niveaux, des débutants aux avancés. Ces cours offrent une occasion unique d'apprendre la langue arabe dans un environnement accueillant et respectueux de la culture.<br>
+
+            <h3>Période d'inscription : juin et juillet</h3>
+            
+            Les inscriptions pour les cours d'arabe sont ouvertes uniquement pendant les mois de juin et juillet. Il est essentiel de respecter cette période pour garantir votre place dans les cours.<br><br>
+            
+            <h3>Paiement</h3>
+            
+            Les paiements pour les cours doivent être effectués exclusivement pendant la période d'inscription, soit en juin et juillet. Aucun paiement ne sera accepté en dehors de ces dates.<br><br>
+            
+            Ne manquez pas cette opportunité d'enrichir vos compétences linguistiques et de mieux comprendre la langue arabe.</p>
+            <button id="register-btn">S'inscrire aux cours d'Arabe</button>
+            </div>
+            <img src="./img-MK/islamic-ramadan-celebration-lantern-fantasy-style.jpg" alt="" height="100%" width="20%">
+        </div>
+        <div id="class-registration-container"></div> 
+        
     </section>
     
     <section id="gallery">
@@ -88,7 +105,30 @@
     </section>
 
     <footer>
-        <p>&copy; 2024 Mosquée Koubaa. Tous droits réservés.</p>
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="subscribe">
+                    <h3>Suscríbete a nuestro boletín</h3>
+                    <form action="#" method="post">
+                        <input type="email" name="email" placeholder="Introduce tu correo electrónico" required>
+                        <button type="submit">Suscribirse</button>
+                    </form>
+                </div>
+                <div class="contact">
+                    <h3>Contacto</h3> 
+                    <p>Correo electrónico: <a href="mailto:info@tuempresa.com">info@tuempresa.com</a></p>
+                </div>
+                <div class="social">
+                    <h3>Síguenos en redes sociales</h3>
+                    <ul>
+                        <li><a href="#"><img src="./img-MK/facebook-logo-meta-svgrepo-com.svg" alt="Facebook"></a></li>
+                        <li><a href="#"><img src="./img-MK/letter-x-svgrepo-com.png" alt="Twitter"></a></li>
+                        <li><a href="#"><img src="./img-MK/byFreepika.png" alt="Instagram"></a></li>
+                    </ul>
+                </div>
+            </div><p>&copy; 2024 Mosquée Koubaa. Tous droits réservés.</p>
+        </footer>
+        
     </footer>
 
     <script src="MKoubaa.js"></script>
