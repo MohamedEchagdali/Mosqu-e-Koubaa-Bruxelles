@@ -1,11 +1,9 @@
 Notas 
 
-1 - 
-1.1 - cambiar el formulario de inscripcion
+1 - efecto scrol y contraste del header en las diferentes secciones 
+1-1 cours d'arabe se rompe al hacer la pagina mas pequena 
 2 - No dejas que ambos innerHtml esten desplegados al mismo tiempo
 3 - Manejar las injecciones html malignas de los inner text 
-4 - Estilar mas el scrollbarre
 5 - Ver mas oppciones de donacion instantanea 
-6 - mejorar el formulario de contacto 
 7 - manejar el backend simple para enviar formularios y neuwletter al correo pertinente 
 8 -  preguntar si se revisa regularmente el email de la mezquita 

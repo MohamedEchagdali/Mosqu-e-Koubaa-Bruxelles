@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!formVisible) {
             classRegistrationContainer.innerHTML = `
                 <div id="class-registration-form">
+                <h2>Demande d'inscription</h2>
                     <form>
                         <label for="name">Nom:</label>
                         <input type="text" id="name" name="name" required>
@@ -33,7 +34,16 @@ document.addEventListener('DOMContentLoaded', () => {
                         <input type="email" id="email" name="email" required>
                         <label for="age">Âge:</label>
                         <input type="number" id="age" name="age" required>
-                        <button type="submit">S'inscrire</button>
+                        <label for="niveau">Niveau:</label>
+                        <select name="niveau" id="niveau" required>
+                            <option value="" selected>Choisir le niveau</option>
+                            <option value="1°">Première année</option>
+                            <option value="2°">Deuxième année</option>
+                            <option value="3°">Troisième année</option>
+                            <option value="4°">Quatrième année</option>
+                            <option value="5°">Cinquième année</option>
+                        </select>
+                        <button type="submit">Envoyer la demande</button>
                         <button type="button" id="close-registration">Fermer</button>
                     </form>
                 </div>
